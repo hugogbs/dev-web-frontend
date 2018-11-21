@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Post.css";
 import Comment from "../comment/Comment";
-import { Collapse, Button, CardBody, Card } from "reactstrap";
+import { Collapse, Button, Card } from "reactstrap";
 
 class Post extends Component {
   constructor(props) {
@@ -52,11 +52,11 @@ class Post extends Component {
           </p>
         </div>
         <div className="reactionsDiv">
-          <div className="" class="alert alert-primary" role="alert">
-            Curtiu = 10
+          <div class="alert alert-primary" role="alert">
+            10 <i class="material-icons">trending_up</i>
           </div>
           <div class="alert alert-danger" role="alert">
-            Não curtiu = 10
+            5 <i class="material-icons">trending_down</i>
           </div>
         </div>
         <div>
